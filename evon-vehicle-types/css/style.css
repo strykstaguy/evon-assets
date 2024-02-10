@@ -1,11 +1,11 @@
 @font-face {
   font-family: "evon";
-  src: url("../font/evon.eot");
-  src: url("../font/evon.eot?9lo7i4#iefix") format("embedded-opentype"),
-      url("../font/evon.woff2?9lo7i4") format("woff2"),
-      url("../font/evon.woff?9lo7i4") format("woff"),
-      url("../font/evon.ttf?9lo7i4") format("truetype"),
-      url("../font/evon.svg?9lo7i4#evon") format("svg");
+  src: url("https://github.com/strykstaguy/evon-assets/raw/main/evon-vehicle-types/font/evon.eot");
+  src: url("https://github.com/strykstaguy/evon-assets/raw/main/evon-vehicle-types/font/evon.eot?9lo7i4#iefix") format("embedded-opentype"),
+      url("https://github.com/strykstaguy/evon-assets/raw/main/evon-vehicle-types/font/evon.woff2?9lo7i4") format("woff2"),
+      url("https://github.com/strykstaguy/evon-assets/raw/main/evon-vehicle-types/font/evon.woff?9lo7i4") format("woff"),
+      url("https://github.com/strykstaguy/evon-assets/raw/main/evon-vehicle-types/font/evon.ttf?9lo7i4") format("truetype"),
+      url("https://github.com/strykstaguy/evon-assets/raw/main/evon-vehicle-types/font/evon.svg?9lo7i4#evon") format("svg");
   font-style: normal;
   font-weight: 400;
 }
