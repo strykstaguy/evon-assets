@@ -1,0 +1,60 @@
+$icon-coupe: "\ea01";
+$icon-sedan: "\ea02";
+$icon-suv-large: "\ea03";
+$icon-suv-medium: "\ea04";
+$icon-suv-small: "\ea05";
+$icon-truck-extended: "\ea06";
+$icon-truck-four-door: "\ea07";
+$icon-truck-standard: "\ea08";
+
+@font-face {
+  font-family: "evon";
+  src: url("../font/evon.eot");
+  src: url("../font/evon.eot?9lo7i4#iefix") format("embedded-opentype"), url("../font/evon.woff2?9lo7i4") format("woff2"), url("../font/evon.woff?9lo7i4") format("woff"), url("../font/evon.ttf?9lo7i4") format("truetype"), url("../font/evon.svg?9lo7i4#evon") format("svg");
+  font-style: normal;
+  font-weight: 400;
+}
+
+%icon {
+  display: inline-block;
+  font-family: "evon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+  @extend %icon;
+}
+
+.icon-coupe::before {
+  content: "\ea01";
+}
+.icon-sedan::before {
+  content: "\ea02";
+}
+.icon-suv-large::before {
+  content: "\ea03";
+}
+.icon-suv-medium::before {
+  content: "\ea04";
+}
+.icon-suv-small::before {
+  content: "\ea05";
+}
+.icon-truck-extended::before {
+  content: "\ea06";
+}
+.icon-truck-four-door::before {
+  content: "\ea07";
+}
+.icon-truck-standard::before {
+  content: "\ea08";
+}
